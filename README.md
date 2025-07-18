@@ -7,7 +7,7 @@ This is our [technical documentation](https://smits-organization-1.gitbook.io/zk
  **FaiRemix** introduces Proof of Inspiration — a fairness-first protocol for remix culture, enabling creators to provably link their work to upstream influences and receive automatic attribution and royalties onchain. It creates a transparent graph of creative lineage, rewarding inspiration and collaboration while maintaining creator control. Powered by Zora, and remix-friendly standards, FaiRemix makes creative credit fair, programmable, and interoperable.
 
 ## What it is:
-An onchain attribution layer where creators register original works and optionally declare inspirations, collaborators, and tools. Any future remixed or derivative content can cite, credit, and reward these sources transparently — creating a graph of remix genealogy.
+An onchain attribution layer where creators register original works and declare inspirations, collaborators, and tools. Any future remixed or derivative content can cite, credit, and reward these sources transparently — creating a graph of remix genealogy.
 
 ## Key:
 
@@ -17,7 +17,6 @@ If your work (image, code, article, beat) inspires others
 Creators can cite upstream inspiration, collaborators, and tools
 → And choose how remixable their work is (license + royalty rules).
 
-All attribution is immutable, onchain, and optionally tied to FAIR3 staking or governance.
 
 ## ZK Role:
 
@@ -100,7 +99,7 @@ sequenceDiagram
 | **Layer**        | **Technology**                         | **Role**                                                 |
 | ---------------- | -------------------------------------- | -------------------------------------------------------- |
 | **Storage**      | IPFS                                   | Media (images/audio/video) storage; returns CID.         |
-| **Proof**        | zkSNARK                         | Cryptographic proof of derivation (optional zkML later). |
+| **Proof**        | zkSNARK                         | Cryptographic proof of derivation (zkML later). |
 | **NFT Mint**     | Zora Protocol (ERC-721 & Extensions)   | Tokenizing creative works as NFTs with inspiration link. |
 | **Royalties**    | Custom contract + Zora/Uniswap         | Splitting & swapping royalties → \$ZORA, \$ETH.          |
 | **Verification** | Onchain zkVerifier (Solidity Verifier) | Validating zkProof commitments on mint.                  |
