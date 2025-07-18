@@ -4,33 +4,46 @@ This is our [pitch deck](https://zkinspire-sfyjz8d.gamma.site/)
 
 This is our [technical documentation](https://smits-organization-1.gitbook.io/zkinspire/)
 
-**zkInspire** introduces **Proof of Inspiration** a zero-knowledge-powered protocol that lets creators **provably link their work to prior creations** without exposing the details. This enables **automatic inspiration royalties** and builds an **onchain graph of creative influence**. Powered by **Zora CoinV4** and integrated with Uniswap V4 liquidity, **zkInspire** makes creative credit provable, private, and profitable.
+ **FaiRemix** introduces Proof of Inspiration — a fairness-first protocol for remix culture, enabling creators to provably link their work to upstream influences and receive automatic attribution and royalties onchain. It creates a transparent graph of creative lineage, rewarding inspiration and collaboration while maintaining creator control. Powered by Zora, and remix-friendly standards, FaiRemix makes creative credit fair, programmable, and interoperable.
 
 ## What it is:
-An on-chain registry where creators commit hashes of their work upfront → then, any future work (articles, songs, memes, videos) can provably show they derived from that original work using zk-proofs of similarity/inspiration.
+An onchain attribution layer where creators register original works and optionally declare inspirations, collaborators, and tools. Any future remixed or derivative content can cite, credit, and reward these sources transparently — creating a graph of remix genealogy.
 
 ## Key:
 
-If your meme or song inspired someone else → you get automatically paid a percentage if they prove derivation via zk.
+If your work (image, code, article, beat) inspires others
+→ You earn attribution-based rewards via the FaiRemix protocol.
 
-Inspired creators prove derivation to credibly build on prior art — but without revealing full creative path or identity.
+Creators can cite upstream inspiration, collaborators, and tools
+→ And choose how remixable their work is (license + royalty rules).
+
+All attribution is immutable, onchain, and optionally tied to FAIR3 staking or governance.
 
 ## ZK Role:
 
-Prove derivative relationships → without revealing what parts, what influence, or personal connections.
+Enable private proofs of influence — e.g., remix derived from source without revealing full path.
+
+Preserve creative privacy while still enabling fair attribution logic.
+
+Useful for AI-assisted workflows or sensitive inspiration chains.
+
 
 <img width="588" height="429" alt="image" src="https://github.com/user-attachments/assets/f188f062-0723-4ca9-a9f8-f30d7ce7aff9" />
-
-
 
 
 ---
 
 # Problem Statement
 
-In today’s digital creator economy, inspiration is everywhere but rarely rewarded. Writers remix articles, musicians sample beats, meme creators iterate on viral content but original creators receive little or no credit or compensation. Worse, proving that a work was genuinely inspired by another is nearly impossible without revealing private drafts, sources, or creative secrets.
+In today’s fast-paced digital creative ecosystem, **inspiration is foundational but often invisible**. Creators remix, sample, and evolve one another’s work — yet the **original spark rarely gets recognized or rewarded**.
 
-There is no standardized, provable way to link creative works together especially in a way that ensures automatic revenue sharing with upstream creators.
+Despite the rise of AI tools, open content, and remix culture, **there’s no fair, verifiable, and privacy-preserving way** to trace creative lineage and **ensure contributors across the remix chain are properly credited or compensated**.
+
+* Attribution is informal and inconsistent.
+* Revenue rarely flows upstream.
+* Creators fear sharing source material due to privacy and IP risks.
+
+**FaiRemix** solves this by introducing a **provable, onchain system of creative attribution and fair royalties** — using zero-knowledge proofs to protect creative privacy while ensuring upstream contributors are **transparently and automatically rewarded**.
 
 
 ---
