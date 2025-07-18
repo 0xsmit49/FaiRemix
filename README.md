@@ -323,7 +323,7 @@ function distributeRoyalty(uint256 salePrice, RoyaltySplit[] calldata splits) ex
 
 ---
 
-# zkInspire: Sponsor Technology Integration
+# FaiRemix: Sponsor Technology Integration
 
 
 For code integration please visit Architecture directory
