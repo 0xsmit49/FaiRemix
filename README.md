@@ -19,7 +19,8 @@ Inspired creators prove derivation to credibly build on prior art — but withou
 
 Prove derivative relationships → without revealing what parts, what influence, or personal connections.
 
-<img width="604" height="437" alt="Screenshot from 2025-07-18 09-56-33" src="https://github.com/user-attachments/assets/f6e39805-a1d4-4883-b9bc-dd4077d71647" />
+<img width="588" height="429" alt="image" src="https://github.com/user-attachments/assets/f188f062-0723-4ca9-a9f8-f30d7ce7aff9" />
+
 
 
 
